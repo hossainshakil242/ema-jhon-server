@@ -8,9 +8,9 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/',(req,res)=>{
-    res.send('ema jhon server is running.')
+    res.send('jhon is busy shopping');
 })
 
 app.listen(port,()=>{
-    console.log(`ema-jhon-server is running on: ${port}`)
+    console.log(`ema jhon server is running on: ${port}`);
 })
